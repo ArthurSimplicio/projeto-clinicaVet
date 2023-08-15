@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 const page = () => {
   return (
     <>
-      <main className='absolute max-w-[2120px] h-screen bg-slate-50 '>
+      <main className='absolute max-w-[2120px] h-screen text-black bg-slate-50 '>
         <Header />
         <section id='Home' className='max-w-[2120px] sm:max-w-[2120px] flex flex-col md:flex-row-reverse   items-center bg-slate-50
         justify-center pt-20 pb-36 md:pt-0 '>
