@@ -3,25 +3,7 @@ import React from 'react'
 
 
 const Services = () => {
-  const container = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2
-      }
-    }
-  };
   
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1
-    }
-  };
   return (
     <>
       <section id='Services' className='w-full md:max-w-[2120px]  mx-auto bg-slate-50'>
@@ -41,7 +23,7 @@ const Services = () => {
 
             <div className='  flex flex-col items-center justify-center'>
             <div className='w-48 h-48 hover:ease-out hover:bg-purple-900 duration-300 hover:scale-75  p-12 rounded-full shadow-2xl bg-gray-100'>
-                <Image className=' h-auto ' src={`/emergency.svg`} width={130} height={1} alt='a' />
+                <Image className=' h-auto ' src={`/vacination.svg`} width={130} height={1} alt='a' />
               </div>
               <h2 className='font-semibold text-3xl mb-2'>Vacinação</h2>
               <p className='w-[295.5px] h-[90px] text-sm font-medium mb-4'>O “efeito rebanho” causado pela vacinação faz com que quanto mais animais forem vacinados, menor seja a chance de doenças comuns tomarem grandes proporções.</p>
@@ -50,7 +32,7 @@ const Services = () => {
             </div>
             <div className=' flex flex-col items-center justify-center'>
             <div className='w-48 h-48 hover:ease-out duration-300 hover:scale-75 hover:bg-purple-900  p-12 rounded-full shadow-2xl bg-gray-100'>
-                <Image className=' h-auto ' src={`/emergency.svg`} width={130} height={1} alt='a' />
+                <Image className=' h-auto ' src={`/x-ray.svg`} width={130} height={1} alt='a' />
               </div>
               <h2 className='font-semibold text-3xl mb-2'>Raio-X</h2>
               <p className='w-[295.5px] h-[90px] text-sm font-medium mb-4'>O objetivo do exame de raio-x é auxiliar o veterinário na avaliação das estruturas presentes na cavidade torácica, abdominal e também dos ossos e as articulações.</p>
